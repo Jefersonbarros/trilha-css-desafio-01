@@ -1,0 +1,33 @@
+@import url(reset.css);
+
+
+.banner {
+    background-image: linear-gradient(rgba(0, 0, 0, .6),rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)),url(../images/banner.png)
+}
+
+
+.banner, banner-content,
+ #course-content, 
+ modules-list, 
+ section, 
+ #professional-challenges, 
+ footer   {
+    text-align: center;
+}
+
+body {
+    background-color: black;
+  }
+
+p {
+    color: white;
+}
+  h2 {
+    font-size: 2rem;
+    color: #33A8DB;
+    font-weight: bold;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+  }
+
