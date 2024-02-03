@@ -27,7 +27,8 @@ exatamente igual à diretriz @media
 conforme a estrutura de box model que compõe cada elemento HTML na tela do navegador
  
 - border-bottom é um shortcut para definir diversas propriedades da borda de baixo (bottom) ao mesmo tempo;
- ele define a espessura, cor e tipo da borda de uma só vez (A linha azul que separa cada div no site)
+ ele define a espessura, cor e tipo da borda de uma só vez 
+ (Responsável pela linha azul que separa cada div no site)
  */
 
 
@@ -108,7 +109,7 @@ banner-content
   }
 
 /*
--Texto "A nova Trilha de CSS 
+-Propriedades para tamanho da fonte e margin do texto "A nova Trilha de CSS 
 da DIO está disponível. Acesse já e aprenda do zero como desenvolver sites profissionais."
 */
 
@@ -124,7 +125,7 @@ da DIO está disponível. Acesse já e aprenda do zero como desenvolver sites pr
 
  /*
  -dimensões da div onde o logo está dentro, propriedade border-radios 50% faz com a div se torne 
- um circulo
+ um circulo, margin auto centraliza a div
  */
 
   .banner .logo img {
@@ -133,6 +134,12 @@ da DIO está disponível. Acesse já e aprenda do zero como desenvolver sites pr
     height: 100%;
     object-fit: contain;
   }
+
+/*
+-Propriedades para pocisionar a imagem logo
+-object-fit: contain o conteúdo é redimensionado para se encaixar totalmente no contêiner, 
+mantendo a proporção original
+*/
   
   .banner .banner-content button {
     color: #31A8DD;
@@ -146,16 +153,32 @@ da DIO está disponível. Acesse já e aprenda do zero como desenvolver sites pr
     border-image-slice: 10;
     border-radius: 30px;
   }
+
+/*
+-Propriedades do botão "Quero me inscrever"
+*/
+
+
+
+
   
   #course-content {
     width: 800px;
     text-align: center;
   }
+
+
+
+
   
   #course-content .modules-list {
     margin: 24px 0;
   }
   
+
+
+
+
   #course-content .modules-list .module {
     color: white;
     width: 530px;
@@ -167,10 +190,18 @@ da DIO está disponível. Acesse já e aprenda do zero como desenvolver sites pr
     box-shadow: inset -5px 6px 8px rgba(0, 0, 0, .7);
   }
   
+
+
+
+
   #course-content .modules-list .module span {
     color: #33A8DB;
   }
   
+
+
+
+
   #transform-world {
     height: 560px;
     background-size: cover;
@@ -181,6 +212,28 @@ da DIO está disponível. Acesse já e aprenda do zero como desenvolver sites pr
     padding: 200px;
   }
   
+/*
+-propriedade background-size, O objetivo é definir qual será o tamanho da 
+ imagem de fundo de alguma tag, geralmente uma <div>, (cover) informa ao navegador que ele deve se certificar 
+ de que a imagem cobrirá sempre o contêiner inteiro (nesse caso, todo o html). O navegador cobrirá todo o 
+ contêiner, mesmo que precise esticar a imagem ou cortar parte dela que esteja fora dos limites do contêiner
+
+
+-background-attachment: fixed, Esta propriedade é utilizada para definir o que acontecerá com a 
+imagem de fundo quando da interação com a barra de rolagem, se ela ficará fixa, se ela se moverá 
+junto com o movimento de scroll, entre outras opções
+
+-border-top usada para definir as características da borda superior de um elemento 
+(Responsável pela linha azul que separa cada div no site)
+
+- border-bottom é um shortcut para definir diversas propriedades da borda de baixo (bottom) ao mesmo tempo;
+ ele define a espessura, cor e tipo da borda de uma só vez 
+ (Responsável pela linha azul que separa cada div no site)
+
+*/
+
+
+
   #transform-world p {
     font-weight: 900;
     font-size: 2.5rem;
@@ -188,15 +241,28 @@ da DIO está disponível. Acesse já e aprenda do zero como desenvolver sites pr
     max-width: 250px;
     text-shadow: 3px 2px #33A8DB;
   }
+
+/*
+Propriedades para o texto "transforme o mundo com a gente"
+*/
+
   
   #professional-challenges {
     text-align: center;
     width: 800px;
   }
+
+
+
+
   
   #professional-challenges img {
     margin: 32px 0;
   }
+
+
+
+
   
   footer {
     padding: 60px 0;
@@ -204,11 +270,25 @@ da DIO está disponível. Acesse já e aprenda do zero como desenvolver sites pr
     background-image: linear-gradient(rgba(50, 168, 219, .0), rgba(50, 168, 219, .2));
     border-top: 1px solid #33A8DB80;
   }
+
+/*
+-footer marca a área inferior, normalmente conhecida como rodapé, do conteúdo geral
+ do documento ou do conteúdo de uma seção específica a qual ele está subordinado
+
+-border-top usada para definir as características da borda superior de um elemento 
+(Responsável pela linha azul que separa cada div no site)
+*/
+
+
+
   
   footer .dio-logo {
     width: 300px;
   }
   
+
+
+
   footer a {
     color: #33A8DB;
     font-weight: bold;
