@@ -190,7 +190,9 @@ mantendo a proporção original
     box-shadow: inset -5px 6px 8px rgba(0, 0, 0, .7);
   }
   
-
+/*
+Propriedade das bordas módulo 1,2 e 3
+*/
 
 
 
@@ -230,6 +232,7 @@ junto com o movimento de scroll, entre outras opções
  ele define a espessura, cor e tipo da borda de uma só vez 
  (Responsável pela linha azul que separa cada div no site)
 
+ -padding define uma a distância entre o conteúdo de um elemento e suas bordas
 */
 
 
@@ -244,6 +247,8 @@ junto com o movimento de scroll, entre outras opções
 
 /*
 Propriedades para o texto "transforme o mundo com a gente"
+
+-max-width é usada para definir a largura máxima que um elemento pode ter
 */
 
   
